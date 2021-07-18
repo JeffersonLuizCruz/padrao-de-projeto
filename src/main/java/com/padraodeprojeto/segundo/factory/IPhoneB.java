@@ -1,4 +1,4 @@
-package com.padraodeprojeto.segundo;
+package com.padraodeprojeto.segundo.factory;
 
 public class IPhoneB extends IPhone{
 

@@ -1,4 +1,4 @@
-package com.padraodeprojeto.primeiro;
+package com.padraodeprojeto.primeiro.factory;
 
 public interface Moeda {
 	String getSimbolo();

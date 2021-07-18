@@ -1,6 +1,6 @@
-package com.padraodeprojeto.primeiro;
+package com.padraodeprojeto.primeiro.factory;
 
-public class MoedaApplication {
+public class Application {
 
 	public static void main(String[] args) throws Exception {
 		Moeda moeda = MoedaFactory.getSimbolo(Pais.BRASIL);
