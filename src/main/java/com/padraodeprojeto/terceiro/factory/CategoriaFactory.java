@@ -10,10 +10,9 @@ public class CategoriaFactory {
 		case PRODUTO_B:
 			return new CategoriaB();
 		default:
-			break;
-			
+			throw new IllegalArgumentException("Não existe produto desse tipo");	
 		}
-		throw new IllegalArgumentException("Não existe produto desse tipo");
+		
 		
 	}
 
